@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*   font-family: "Roboto", sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*  font-family: "Open Sans", sans-serif; */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Shared styles */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap {
+  margin-right: 22px;
+}
+
+/* Navbar */
+.header-container {
+  width: 100%;
+  background-color: rgba(30, 40, 50, 0.05);
+  /* background-image: url("../images/bg-img.svg");
+  background-repeat: no-repeat;
+  background-position: right; */
+}
+
+.logo-container {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(227, 227, 227, 1);
+}
+
+.logo-title {
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin: 0px 10px;
+}
+
+.logo-img {
+  width: 31px;
+  height: 15px;
+}
+
+.logo-img > img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-container i {
+  font-size: 25px;
+}
+
+.span {
+  color: rgba(30, 40, 50, 1);
+  font-size: 1.12rem;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.nav-items {
+  margin-top: 30px;
+}
+
+.nav-items > li {
+  list-style: none;
+}
+
+.nav-items > li > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Banner */
+.banner-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.banner-content{
+    width: 60%;
+}
+
+.banner-title{
+    color: 
+    rgba(0, 0, 0, 1);
+    font-size: 4.5rem;
+    font-weight: 300;
+}
+
+.banner-description{
+    color: 
+    rgba(0, 0, 0, 1);
+    font-size: 1.87rem;
+    font-weight: 400;
+    line-height: 55px;
+    margin: 50px 0px;
+}
+
+.banner-profile{
+    width: 30%;
+}
+
+.banner-profile > img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-btn > button{
+    background-color: 
+    rgba(30, 40, 50, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 19px 26px;
+    font-size: 29px;
+    font-weight: 400;
+    border: none;
+}
+
+.banner-btn > button > i{
+    margin-right: 8px;
+    font-size: 30px;
+}
+
+/* Brand */
+.brand-container{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+
+
